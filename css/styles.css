@@ -35,11 +35,6 @@ h6 {
 .details {
   color: #fff;
 }
-@media (max-width: 700px) {
-  body {
-    text-align: center;
-  }
-}
 
 /* Reviews section */
 .row {
@@ -55,15 +50,7 @@ h6 {
   border-radius: 10px;
 }
 
-.rv2 {
-  position:  relative;
-  margin-left: 30px;
-}
 
-.rv3 {
-  position: relative;
-  margin-left: 60px;
-}
 
 /* Testimonials section */
 .testimonial-1, .testimonial-2, .testimonial-3 {
@@ -76,12 +63,28 @@ h6 {
 }
 
 @media (max-width: 750px) {
+    body {
+      text-align: center;
+    }
     .testimonial-1, .testimonial-2, .testimonial-3 {
       margin-top: 5%;
     }
 }
 
 @media (min-width: 750px) {
+  .photo {
+    margin-right: 5px;
+  }
+  .rv2 {
+    position:  relative;
+    margin-left: 30px;
+  }
+
+  .rv3 {
+    position: relative;
+    margin-left: 60px;
+  }
+
   .testimonial-1 {
     margin-left: 5%;
     width: 15%;
@@ -108,7 +111,6 @@ h6 {
   border-radius: 100%;
   margin-right: 30px;
   float: left;
-
 }
 
 .attribution {
