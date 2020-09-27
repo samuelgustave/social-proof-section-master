@@ -32,6 +32,9 @@ h6 {
   text-align: center;
 }
 
+.details {
+  color: #fff;
+}
 @media (max-width: 700px) {
   body {
     text-align: center;
@@ -47,16 +50,18 @@ h6 {
   background-color: hsl(300, 24%, 96%);
   color: hsl(300, 43%, 22%);
   width: auto;
-  padding: 15px 30px;
+  padding: 15px 15px;
   margin-bottom: 15px;
   border-radius: 10px;
 }
 
 .rv2 {
+  position:  relative;
   margin-left: 30px;
 }
 
 .rv3 {
+  position: relative;
   margin-left: 60px;
 }
 
