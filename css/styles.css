@@ -16,29 +16,32 @@ h1 {
 
 h3 {
   color: hsl(300, 24%, 96%);
-
 }
 
 h4 {
   color: hsl(333, 80%, 67%);
+  margin-bottom: 20px;
 }
+
 h3, h4 {
   font-size: 1rem;
-  display: inline;
+  line-height: 2;
 }
+
 h6 {
   text-align: center;
 }
+
 @media (max-width: 700px) {
   body {
     text-align: center;
   }
 }
 
+/* Reviews section */
 .row {
   margin: 5% 0;
 }
-
 
 .review {
   background-color: hsl(300, 24%, 96%);
@@ -49,17 +52,58 @@ h6 {
   border-radius: 10px;
 }
 
-.testimonial {
+.rv2 {
+  margin-left: 30px;
+}
+
+.rv3 {
+  margin-left: 60px;
+}
+
+/* Testimonials section */
+.testimonial-1, .testimonial-2, .testimonial-3 {
   font-weight: 400;
   font-size: 15px;
   background-color: hsl(300, 43%, 22%);
   border-radius: 10px;
   padding: 20px;
+
+}
+
+@media (max-width: 750px) {
+    .testimonial-1, .testimonial-2, .testimonial-3 {
+      margin-top: 5%;
+    }
+}
+
+@media (min-width: 750px) {
+  .testimonial-1 {
+    margin-left: 5%;
+    width: 15%;
+    height: 300px;
+  }
+
+  .testimonial-2 {
+    margin-left: 5%;
+    margin-top: 30px;
+    width: 15%;
+    height: 300px;
+  }
+
+  .testimonial-3 {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 60px;
+    width: 15%;
+    height: 300px;
+  }
 }
 
 .photo {
   border-radius: 100%;
-  display: inline;
+  margin-right: 30px;
+  float: left;
+
 }
 
 .attribution {
